@@ -1,6 +1,6 @@
 void setup(){
-  printEmptyLine():
-  printString("print);
+  printEmptyLine();
+  printString("print");
   printNameAndAge("David", 23);
 }
 void printEmptyLine(){

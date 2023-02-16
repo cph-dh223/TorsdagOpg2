@@ -10,5 +10,8 @@ class Student{
     isFemale = tmpIsFemale;
     datamatikerTeam = tmpDatamatikerTeam;
   }
-
+  @Override
+  String toString() {
+    return name + ", dat team: " + datamatikerTeam;
+  }
 }

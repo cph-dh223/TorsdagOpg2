@@ -2,11 +2,13 @@ abstract class Person{
     String name;
     int age;
     boolean isFemale;
-
-    Person(String tmpName, int tmpAge,  boolean tmpIsFemale){
-        name = tmpName;
-        age = tmpAge;
-        isFemale = tmpIsFemale;
+    Person(String name){
+        this.name = name;
+    }
+    Person(String name, int age,  boolean isFemale){
+        this.name = name;
+        this.age = age;
+        this.isFemale = isFemale;
     }
     @Override
     String toString() {

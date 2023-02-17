@@ -1,11 +1,8 @@
-class Teacher {
-  String name;
-  int age;
-  boolean isFemale;
-  
+class Teacher extends Person{
+
   Teacher(String tmpName, int tmpAge,  boolean tmpIsFemale){
-    name = tmpName;
-    age = tmpAge;
-    isFemale = tmpIsFemale;
+    super(tmpName, tmpAge, tmpIsFemale);
   }
+
+  
 }

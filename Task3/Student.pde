@@ -1,13 +1,8 @@
-class Student{
-  String name;
-  int age;
-  boolean isFemale;
+class Student extends Person{
   char datamatikerTeam;
   
   Student(String tmpName, int tmpAge,  boolean tmpIsFemale,  char tmpDatamatikerTeam){
-    name = tmpName;
-    age = tmpAge;
-    isFemale = tmpIsFemale;
+    super(tmpName, tmpAge, tmpIsFemale);
     datamatikerTeam = tmpDatamatikerTeam;
   }
   @Override
